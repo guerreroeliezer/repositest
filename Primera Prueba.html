@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <div>
+        <h1>Primera Prueba</h1>
+
+<!--Imagen en el sitio Web-->
+        <img src="Foto1.jpg" alt="Bosque"><br>
+      
+      <h2>Interfaces de Entrada HTML5</h2>
+
+      <fieldset>
+        <legend><strong>Interfaces de entrada</strong></legend> 
+
+<!--lista desplegable--!>
+         <label for="lista">List Desplegable</label>
+         <input type="text" list="frutas1" name="lista">	
+           <datalist id="frutas1">	
+             <option value="Manzana"></option>
+             <option value="Peras"></option>
+             <option value="Fresas"></option>
+             <option value="Moras"></option>
+          </datalist>	
+        </input><br>
+        <br>
+
+<!--Colores-->
+        <label for="colores">Colores</label>
+        <input type="color" name="colores"></input> <br><br> 
+ 
+<!--Fecha-->
+         <label for="fecha">Fecha</label>
+         <input type="date"name="fecha"></input><br><br>
+
+<!--Email-->
+         <label for="lmail">Valida email</label>
+         <input type="email" name="lmail"></input><br><br>
+
+<!--Numeros entre maximos y minimos-->
+         <label for="rango">Rango de 5-10</label>
+         <input type="number" name="rango" min="5" max="10"></input><br><br>
+
+<!--Numeros entre maximos y minimos dentro de un rango-->
+         <input type="range" min="5" max="20"></input><br><br>
+
+<!--Numeros de telefono con un formato definido-->
+         <input type="tel" placeholder="0212 945 8711" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"></input><br><br>
+
+<!--Formato de sitio web-->
+         <input type="url" placeholder="www.misitioweb.com"></input><br><br>
+
+<!--Para mostrar en el campo un ejemplo de la entrada esperada-->
+         <input type="email" placeholder="ejemplo@gmail.com"></input><br><br> 
+
+<!--No permite que el campo quede e blanco-->
+         <input type="url" required placeholder="Complete en campo"></input><br><br> 
+
+<!--Boton-->
+         <input type="submit" value="Enviar">
+
+
+      </fieldset>
+    </div>
+
+<!--pie de pagina-->
+ <footer>
+   <h3>Pie de pagina<h3>
+ </footer>
+    
+</body>
+
+</html>
